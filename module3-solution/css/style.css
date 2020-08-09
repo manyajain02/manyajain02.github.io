@@ -1,0 +1,116 @@
+body{
+	 font-size:16px;
+	color: whitesmoke;
+background-color: #F6b042;
+	font-size: 25px;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+	border-radius:0px;
+	border:0;
+	background-color: #533549;
+	color:blue;
+}
+.navbar-brand{
+	padding-top: 15px;
+     height:50px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.navbar-brand h1{
+	font-size: 2.5em;
+	color: #F6b042;
+text-transform: uppercase;
+	font-weight: bold;
+text-shadow: 1px 1px 1px ;
+margin-top:0px;
+	margin-bottom: 10px;
+	line-height: .75;
+	
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list{
+margin-top: 10px;
+	
+
+}
+main-content {
+	align-content: center;
+}
+#nav-list a{
+	color:white;
+	text-align: center;
+    font-size:1.3em;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#nav-list a:hover{
+	background : silver;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid  #F6b042;
+}
+.navbar-header bustton.navbar-toggle {
+clear: both;
+  margin-top: -10px;
+}
+
+#menu-title{
+	font-size: 1.8em;
+	color :whitesmoke;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-right: auto;
+	width:100%;
+    text-align: center;
+    font-weight: bold;
+}
+#main-content div{
+	padding: 1px;
+}
+#main-content section
+{  
+	background-color: #5667;
+	margin:10px,5px,10px,5px;
+	
+	margin-bottom: 10px;
+	box-shadow: 0 0px 5px 
+		5px #3F0C1F;                                      
+	float: left;    
+	box-sizing: border-box;
+text-align: center;
+font-family: 'Roboto Condensed', sans-serif;
+}
+	#main-content section h1
+{     font-weight: bold;
+	text-align:center;
+	color:#533549;
+	font-size :1.9em;
+	font-weight: bold;
+	
+	
+}
+@media (max-width: 479px) {
+	.navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+	.col-xxs-12
+	{
+ position: relative;   
+		min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+
+	}
+}
